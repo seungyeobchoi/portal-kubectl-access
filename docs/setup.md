@@ -24,8 +24,10 @@
 Windows에서 신뢰한 등록기 디렉터리를 열고 실행합니다.
 
 ```powershell
-.\Register-PortalKubeconfig.ps1 -BundlePath "$env:USERPROFILE\Downloads\portal-kubeconfig.zip"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Register-PortalKubeconfig.ps1 -BundlePath "$env:USERPROFILE\Downloads\portal-kubeconfig.zip"
 ```
+
+이 호출의 실행 정책은 새 PowerShell 프로세스에만 적용합니다. PC 전체 실행 정책이나 조직의 Group Policy를 변경하지 않습니다. 조직 정책으로 실행이 금지된 환경에서는 그 정책을 우회하지 않고 관리자에게 승인된 실행 방법을 확인합니다. 실행 대상은 위의 독립 HTTPS 경로에서 준비한 등록기입니다.
 
 Ubuntu 또는 WSL Ubuntu에서는 다음 형태를 사용합니다.
 
