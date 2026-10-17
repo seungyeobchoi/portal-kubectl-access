@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-18",
+  "status": "preparation",
+  "installer_implementation_validated": true,
+  "production_public_key_published": false,
+  "portal_download_integration_verified": false,
+  "user_kubectl_end_to_end_verified": false,
+  "wsl_specific_integration_verified": false,
+  "initial_distribution": "https://github.com/seungyeobchoi/portal-kubectl-access",
+  "future_distribution": "Portal HTTPS after migration and validation",
+  "test_keys_are_not_production_trust": true
+}

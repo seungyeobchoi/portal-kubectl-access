@@ -1,0 +1,11 @@
+.env
+.env.*
+.kube/
+*.key
+*.pem
+*.p12
+*.pfx
+*.minisig
+portal-kubeconfig.zip
+__pycache__/
+*.pyc

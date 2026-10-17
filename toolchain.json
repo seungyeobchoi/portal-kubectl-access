@@ -1,0 +1,22 @@
+{
+  "minisign_version": "0.12",
+  "targets": [
+    "windows-x86_64",
+    "ubuntu-x86_64"
+  ],
+  "assets": [
+    {
+      "name": "minisign-0.12-win64.zip",
+      "url": "https://github.com/jedisct1/minisign/releases/download/0.12/minisign-0.12-win64.zip",
+      "archive_sha256": "37b600344e20c19314b2e82813db2bfdcc408b77b876f7727889dbd46d539479",
+      "binary_sha256": "5535be9e4e123831ebe6ef324aafe9dde507015c176191f9e20c3ad60567f9e1"
+    },
+    {
+      "name": "minisign-0.12-linux.tar.gz",
+      "url": "https://github.com/jedisct1/minisign/releases/download/0.12/minisign-0.12-linux.tar.gz",
+      "archive_sha256": "9a599b48ba6eb7b1e80f12f36b94ceca7c00b7a5173c95c3efc88d9822957e73",
+      "binary_sha256": "2c74dffcc1c9a5ee55957c60971998ace2b89f22585631594ec2152c588af8db"
+    }
+  ],
+  "hash_provenance": "Observed after official HTTPS download; upstream release API supplied no digest"
+}
