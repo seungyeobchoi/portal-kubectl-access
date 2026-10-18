@@ -1,6 +1,6 @@
 # 최초 준비와 등록
 
-현재는 운영 공개키 파일이 아직 게시되지 않은 준비 단계입니다. 실제 Portal 접속 파일의 서명 검증·등록 개통은 운영 공개키 게시와 Portal 연결 검증 뒤 안내합니다.
+운영 공개키를 게시하며 Portal 다운로드 연결은 아직 준비 중입니다. 실제 접속 파일의 서명 검증·등록 개통은 Portal 연결 검증 뒤 안내합니다.
 
 ## 신뢰 자료 준비
 
@@ -9,7 +9,7 @@
 | Windows 디렉터리 | Ubuntu 디렉터리 |
 |---|---|
 | `Register-PortalKubeconfig.ps1` | `register_portal_kubeconfig.py` |
-| `portal-kubeconfig.pub` — 운영 키 준비 뒤 게시 | 같은 운영 공개키 파일 — 준비 뒤 게시 |
+| [`portal-kubeconfig.pub`](../clients/windows/portal-kubeconfig.pub) | [같은 운영 공개키 파일](../clients/ubuntu/portal-kubeconfig.pub) |
 | `minisign.exe` — 공식0.12 archive의 x86_64 실행 파일 | `minisign` — 공식0.12 archive의 x86_64 실행 파일 |
 | `minisign.sha256` | `minisign.sha256` |
 
